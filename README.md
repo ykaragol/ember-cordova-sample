@@ -12,6 +12,10 @@ This project prepared by [ember-cli-cordova](https://github.com/poetic/ember-cli
 
 * git pull <project>
 * set ANDROID_HOME to your Android sdk
-* set EMBER_CLI_CORDOVA=0
 * ember cordova:build --platform=android
 * ember cordova emulate
+
+To test on your browser:
+
+* set EMBER_CLI_CORDOVA=0
+* ember s
